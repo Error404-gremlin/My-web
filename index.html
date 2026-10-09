@@ -1,145 +1,251 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device width, intitial=scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Lweendo Chuunga | Computer Science Student</title>
-    <link rel="styesheet"
-    href="css/styles.css">
-    </head>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
     <header>
         <h1>Welcome to My Website</h1>
         <p>Computer Science Student | Web Technology Learner</p>
     </header>
+
     <nav>
-    <a href="#about">About Me</a>
-    <a href="#hobbies">My Hobbies</a>
-    <a href="#learning">My Learning Plan</a>
-    <a href="#photos">My Photos</a>
-    <a href="#media">My Media</a>
-    <a href="#contact">Contact</a>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#learning">My Learning Plan</a>
+        <a href="#schedule">Weekly Schedule</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#contact">Contact</a>
 
-    <a href="https://developer.mozilla.org/en-US/docs/Learn"
-       target="_blank">
-        Learn Web Development
-    </a>
-</nav>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn"
+           target="_blank"
+           rel="noopener noreferrer">
+            Learn Web Development
+        </a>
+    </nav>
 
-<main>
-    <section id="about" class="content-section">
-    <h2>About Me</h2>
+    <main>
 
-    <p>
-        I am an eighteen years old girl in her second year of Computer Science. 
-        I enjoy coding, writing, reading and arts and crafts. I am mostly indoors and I keep to myself because I find peace in solitude and that's how I prefer to rewind. In my freetime, I like to take slow walks while listening to brain melting music at an obnoxious volume.😅
-        I want to get better at web development because it turns out to be a useful side-hustle for a student doing computer science.
-    </p>
-</section>
-<section id="Hobbies"
-class="content-section">
-<h2>My Hobbies</h2>
-<ul>
-    <li>Writing</li>
-    <li>Playing Chess</li>
-    <li>Reading</li>
-</ul></section>
-<section id="learnng"
-class="content-section">
-<h2>My Learning Plan</h2>
-<ol>
-    <li>Learn and apply CSS layouts and responsive design</li>
-    <li>Build small website to practice my skill</li>
-    </ol>
-</section>
-<table>
-    <caption>My Weekly Web Learning Plan</caption>
+        <!-- About Me -->
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
 
-    <tr>
-        <th>Day</th>
-        <th>Topic</th>
-        <th>Practice Task</th>
-    </tr>
+            <p>
+                I am an eighteen-year-old girl in my second year of Computer Science.
+                I enjoy coding, writing, reading, and arts and crafts. I am mostly
+                indoors, and I keep to myself because I find peace in solitude and
+                that is how I prefer to unwind. In my free time, I like to take slow
+                walks while listening to brain-melting music at an obnoxious volume. 😅
+                I want to get better at web development because it turns out to be a
+                useful side hustle for a student studying Computer Science.
+            </p>
+        </section>
 
-    <tr>
-        <td>Monday</td>
-        <td>HTML</td>
-        <td>Practise semantic HTML elements.</td>
-    </tr>
+        <!-- My Hobbies -->
+        <section id="hobbies" class="content-section">
+            <h2>My Hobbies</h2>
 
-    <tr>
-        <td>Wednesday</td>
-        <td>CSS</td>
-        <td>Practise colours, spacing and layouts.</td>
-    </tr>
+            <ul>
+                <li>Writing</li>
+                <li>Playing Chess</li>
+                <li>Reading</li>
+            </ul>
+        </section>
 
-    <tr>
-        <td>Friday</td>
-        <td>Responsive Design</td>
-        <td>Test a webpage on different screen sizes.</td>
-    </tr>
-</table>
-<section id="photos" class="content-section">
-    <h2>My Photos</h2>
+        <!-- My Learning Plan -->
+        <section id="learning" class="content-section">
+            <h2>My Learning Plan</h2>
 
-    <div class="gallery">
-    <figure>
-    <img src="Images/photo.jpg"
-         alt="A photo representing a military salute I copied from Attack on Titan because I can😎">
-    <figcaption>My university experience.</figcaption>
-</figure>
-<figure>
-    <img src="Images/photo2.jpg"
-         alt="A photo showing one of my hobbies">
-    <figcaption>One of my favourite hobbies. I really love reading.</figcaption>
-</figure>
+            <ol>
+                <li>Learn and apply CSS layouts and responsive design.</li>
+                <li>Build small websites to practise my web development skills.</li>
+                <li>Learn JavaScript and use it to add interactive features to websites.</li>
+            </ol>
+        </section>
 
-<figure>
-    <img src="Images/photo3.jpg"
-         alt="A photo representing my interest in technology">
-    <figcaption>I did not choose the techy life, the techy life chose me🤭</figcaption>
-</figure>
-    </div>
-</section>
-<section id="media" class="content-section">
-    <h2>My Media</h2>
-    <h3>My Introduction Video</h3>
+        <!-- Weekly Learning Schedule -->
+        <section id="schedule" class="content-section">
+            <h2>My Weekly Learning Schedule</h2>
 
-<video controls>
-    <source src="Videos/intro.mp4" type="video/mp4">
-    Your browser does not support the video element.
-</video>
+            <table>
+                <caption>My Weekly Web Learning Plan</caption>
 
-<p>
-    In this video, I introduce myself as a Computer Science student
-    and explain that I hope to improve my responsive web design skills.
-</p>
-<h3>My Audio Introduction</h3>
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Topic</th>
+                        <th scope="col">Practice Task</th>
+                    </tr>
+                </thead>
 
-<audio controls>
-    <source src="Videos/voice.aac" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML</td>
+                        <td>Practise semantic HTML elements.</td>
+                    </tr>
 
-<p>
-    In this recording, I describe one of my hobbies and explain why
-    I am interested in studying web technologies.
-</p>
-<section id="contact" class="content-section">
-    <h2>Contact Me</h2>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS</td>
+                        <td>Practise colours, spacing, and layouts.</td>
+                    </tr>
 
-    <form action="#" method="post">
-        <label for="name">Name:</label>
-<input type="text" id="name" name="name" required>
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" required>
-<label for="topic">Topic:</label>
-<input type="text" id="topic" name="topic">
-<label for="message">Message:</label>
-<textarea id="message" name="message" rows="5" required></textarea>
-<button type="submit">Send Message</button>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Responsive Design</td>
+                        <td>Test a webpage on different screen sizes.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- My Photos -->
+        <section id="photos" class="content-section">
+            <h2>My Photos</h2>
+
+            <div class="gallery">
+
+                <figure>
+                    <img
+                        src="images/photo.jpg"
+                        alt="A military salute inspired by Attack on Titan."
+                        loading="lazy">
+
+                    <figcaption>My university experience.</figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="images/photo2.jpg"
+                        alt="A photo representing my love of reading."
+                        loading="lazy">
+
+                    <figcaption>
+                        One of my favourite hobbies. I really love reading.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="images/photo3.jpg"
+                        alt="A photo representing my interest in technology."
+                        loading="lazy">
+
+                    <figcaption>
+                        I did not choose the techy life, the techy life chose me. 🤭
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- My Media -->
+        <section id="media" class="content-section">
+            <h2>My Media</h2>
+
+            <div class="media-item">
+                <h3>My Introduction Video</h3>
+
+                <video controls preload="metadata">
+                    <source src="videos/intro.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+
+                <p>
+                    In this video, I introduce myself as a Computer Science student
+                    and explain that I hope to improve my responsive web design skills.
+                </p>
+
+                <p>
+                    <strong>Video summary:</strong>
+                    I introduce myself, state my programme of study, and describe
+                    the web development skill I hope to learn.
+                </p>
+            </div>
+
+            <div class="media-item">
+                <h3>My Audio Introduction</h3>
+
+                <audio controls preload="metadata">
+                    <source src="videos/voice.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <p>
+                    In this recording, I describe one of my hobbies and explain why
+                    I am interested in studying web technologies.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+
+            <p>
+                This is a demonstration form for my web technology assignment.
+                It does not send messages to a real recipient.
+            </p>
+
+            <form action="#" method="post">
+
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="topic">Topic:</label>
+                    <input
+                        type="text"
+                        id="topic"
+                        name="topic">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
     </main>
+
     <footer>
-    <p>&copy; 202513582 Chuunga Lweendo. ICT251 Web Technologies.</p>
-</footer>
+        <p>&copy; 202513582 Chuunga Lweendo. ICT251 Web Technologies.</p>
+    </footer>
+
 </body>
 </html>
+```
